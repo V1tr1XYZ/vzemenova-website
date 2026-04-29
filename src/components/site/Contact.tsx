@@ -22,7 +22,7 @@ export function Contact() {
               {[
                 { icon: Phone, label: "+420 774 294 436", href: "tel:+420774294436" },
                 { icon: Mail, label: "veronika.zemenova@benefitas.cz", href: "mailto:veronika.zemenova@benefitas.cz" },
-                { icon: MapPin, label: "Praha & online", href: "#" },
+                { icon: MapPin, label: "Praha a okolí", href: "#" },
               ].map((c) => {
                 const Icon = c.icon;
                 return (

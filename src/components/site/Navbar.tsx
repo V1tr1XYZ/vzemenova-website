@@ -26,11 +26,13 @@ export function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
-        <a href="#top" className="flex items-center gap-3 group" aria-label="Veronika Zemenová">
-          {/* TODO: nahradit dodaným SVG logem (full white) */}
-          <span className="font-display text-xl tracking-tight text-white">
-            Veronika Zemenová
-          </span>
+        <a href="#top" className="flex items-center group" aria-label="Veronika Zemenová">
+          <img
+            src="/logo.svg"
+            alt="Veronika Zemenová"
+            className="h-10 w-auto"
+            style={{ filter: "brightness(0) invert(1)" }}
+          />
         </a>
         <nav className="hidden lg:flex items-center gap-8">
           {links.map((l) => (
