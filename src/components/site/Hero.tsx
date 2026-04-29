@@ -1,5 +1,4 @@
 import { ArrowRight } from "lucide-react";
-import heroPhoto from "@/assets/photo-1.jpg";
 
 export function Hero() {
   return (
@@ -67,7 +66,7 @@ export function Hero() {
           <div className="absolute -inset-6 bg-gradient-primary opacity-30 blur-3xl rounded-full" />
           <div className="relative aspect-[3/4] rounded-3xl overflow-hidden border border-border shadow-elegant">
             <img
-              src={heroPhoto}
+              src="https://framerusercontent.com/images/E256AMOO7jmeC16Pt034c9hN4HQ.png?width=535&height=852"
               alt="Veronika Zemenová – finanční specialistka"
               className="h-full w-full object-cover"
             />
