@@ -72,7 +72,6 @@ export function Hero() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
           </div>
-          </div>
         </div>
       </div>
     </section>
