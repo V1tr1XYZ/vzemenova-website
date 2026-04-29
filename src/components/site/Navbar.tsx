@@ -5,8 +5,6 @@ const links = [
   { href: "#odkazy", label: "Odkazy" },
   { href: "#pribeh", label: "Můj příběh" },
   { href: "#sluzby", label: "Služby" },
-  { href: "#clanky", label: "Články" },
-  { href: "#videa", label: "Videa" },
   { href: "#kontakt", label: "Kontakt" },
 ];
 
@@ -28,12 +26,10 @@ export function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
-        <a href="#top" className="flex items-center gap-2 group">
-          <span className="h-9 w-9 rounded-lg bg-gradient-primary grid place-items-center text-primary-foreground font-display font-bold shadow-glow">
-            V
-          </span>
-          <span className="font-display text-lg tracking-tight">
-            Veronika <span className="text-muted-foreground">— pojištění &amp; finance</span>
+        <a href="#top" className="flex items-center gap-3 group" aria-label="Veronika Zemenová">
+          {/* TODO: nahradit dodaným SVG logem (full white) */}
+          <span className="font-display text-xl tracking-tight text-white">
+            Veronika Zemenová
           </span>
         </a>
         <nav className="hidden lg:flex items-center gap-8">
