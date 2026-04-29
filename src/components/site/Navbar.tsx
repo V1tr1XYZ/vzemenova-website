@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Instagram } from "lucide-react";
+import logo from "@/assets/logo.svg";
 
 const links = [
   { href: "#odkazy", label: "Odkazy" },
@@ -28,7 +29,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
         <a href="#top" className="flex items-center group" aria-label="Veronika Zemenová">
           <img
-            src="/logo.svg"
+            src={logo}
             alt="Veronika Zemenová"
             className="h-10 w-auto"
             style={{ filter: "brightness(0) invert(1)" }}
