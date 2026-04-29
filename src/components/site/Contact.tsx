@@ -20,8 +20,8 @@ export function Contact() {
 
             <div className="mt-10 space-y-4">
               {[
-                { icon: Phone, label: "+420 777 000 000", href: "tel:+420777000000" },
-                { icon: Mail, label: "veronika@example.cz", href: "mailto:veronika@example.cz" },
+                { icon: Phone, label: "+420 774 294 436", href: "tel:+420774294436" },
+                { icon: Mail, label: "veronika.zemenova@benefitas.cz", href: "mailto:veronika.zemenova@benefitas.cz" },
                 { icon: MapPin, label: "Praha & online", href: "#" },
               ].map((c) => {
                 const Icon = c.icon;
