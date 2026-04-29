@@ -15,7 +15,7 @@ const articles = [
   },
   {
     img: "https://framerusercontent.com/images/p9T4RpNlZofhIffMQsNeU9ffI.png?width=1456&height=816",
-    title: "„Mysli pozitivně" není jen obyčejnou frází",
+    title: "„Mysli pozitivně“ není jen obyčejnou frází",
     time: "3 minuty čtení",
     href: "#",
   },
