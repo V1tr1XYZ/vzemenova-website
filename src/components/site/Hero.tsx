@@ -1,4 +1,4 @@
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
@@ -12,9 +12,12 @@ export function Hero() {
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-border bg-surface/60 backdrop-blur text-xs uppercase tracking-[0.2em] text-muted-foreground mb-8">
-            <Sparkles className="h-3 w-3 text-primary" />
-            Krásný den, jsem
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/30 bg-primary/10 backdrop-blur text-xs uppercase tracking-[0.2em] text-primary-glow mb-8">
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary-glow opacity-75" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-primary-glow" />
+            </span>
+            Aktuálně přijímám nové klienty v Praze
           </div>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05]">
             <span className="text-gradient">Veronika</span>
@@ -69,9 +72,6 @@ export function Hero() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
           </div>
-          <div className="absolute -bottom-6 -left-6 bg-surface-elevated border border-border rounded-2xl px-5 py-4 shadow-card backdrop-blur-md">
-            <div className="text-xs text-muted-foreground">Aktuálně přijímám</div>
-            <div className="text-sm font-medium text-foreground">nové klienty v Praze</div>
           </div>
         </div>
       </div>
