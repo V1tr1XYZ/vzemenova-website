@@ -22,7 +22,7 @@ export function Contact() {
               {[
                 { icon: Phone, label: "+420 774 294 436", href: "tel:+420774294436" },
                 { icon: Mail, label: "veronika.zemenova@benefitas.cz", href: "mailto:veronika.zemenova@benefitas.cz" },
-                { icon: MapPin, label: "Praha a okolí", href: "#" },
+                { icon: MapPin, label: "Na Strži 1702/65, Prague, Czech Republic 140 00", href: "https://maps.google.com/?q=Na+Strži+1702/65,+Prague,+Czech+Republic+140+00" },
               ].map((c) => {
                 const Icon = c.icon;
                 return (
