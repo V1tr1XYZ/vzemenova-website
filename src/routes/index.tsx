@@ -1,26 +1,45 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/site/Navbar";
+import { Hero } from "@/components/site/Hero";
+import { Story } from "@/components/site/Story";
+import { Services } from "@/components/site/Services";
+import { Articles } from "@/components/site/Articles";
+import { Videos } from "@/components/site/Videos";
+import { Links } from "@/components/site/Links";
+import { Contact } from "@/components/site/Contact";
+import { Footer } from "@/components/site/Footer";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Veronika Zemenová — pojištění a finance | Praha" },
+      {
+        name: "description",
+        content:
+          "Osobní finanční poradkyně v Praze. Pojištění, investice, hypotéky a finanční plán na míru. Sjednejte si nezávaznou konzultaci.",
+      },
+      { property: "og:title", content: "Veronika Zemenová — pojištění a finance" },
+      {
+        property: "og:description",
+        content: "Pojištění, investice a finanční plán s důrazem na důvěru a dlouhodobý vztah.",
+      },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <main className="bg-background text-foreground">
+      <Navbar />
+      <Hero />
+      <Story />
+      <Services />
+      <Articles />
+      <Videos />
+      <Links />
+      <Contact />
+      <Footer />
+    </main>
+  );
 }
