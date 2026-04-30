@@ -1,7 +1,7 @@
 import { Instagram, Facebook, Linkedin, Globe, Mail, Phone } from "lucide-react";
 
 const items = [
-  { icon: Globe, label: "Benefit Investment", href: "#" },
+  { icon: Globe, label: "eDO Finance", href: "#" },
   { icon: Instagram, label: "Instagram", href: "#" },
   { icon: Facebook, label: "Facebook", href: "#" },
   { icon: Linkedin, label: "LinkedIn", href: "#" },
