@@ -1,3 +1,5 @@
+import druhaFotka from "@/assets/druha-fotka.jpg";
+
 export function Story() {
   return (
     <section id="pribeh" className="relative py-32 overflow-hidden">
@@ -8,7 +10,7 @@ export function Story() {
           <div className="relative order-2 lg:order-1">
             <div className="aspect-[4/5] rounded-3xl overflow-hidden border border-border shadow-elegant">
               <img
-                src="https://framerusercontent.com/images/YytEh88o9UtSU5TNU5a0qcmE0U.png?width=691&height=852"
+                src={druhaFotka}
                 alt="Veronika při práci"
                 className="h-full w-full object-cover"
               />
