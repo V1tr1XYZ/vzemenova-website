@@ -1,10 +1,11 @@
 import { ArrowRight } from "lucide-react";
+import prvniFotka from "@/assets/prvni-fotka.jpg";
 
 export function Hero() {
   return (
     <section
       id="top"
-      className="relative min-h-screen pt-32 pb-24 bg-gradient-hero noise overflow-hidden"
+      className="relative pt-32 pb-12 bg-gradient-hero noise overflow-hidden"
     >
       {/* Decorative blobs */}
       <div className="absolute top-1/3 -left-32 h-96 w-96 rounded-full bg-primary/20 blur-[120px]" />
@@ -66,7 +67,7 @@ export function Hero() {
           <div className="absolute -inset-6 bg-gradient-primary opacity-30 blur-3xl rounded-full" />
           <div className="relative aspect-[3/4] rounded-3xl overflow-hidden border border-border shadow-elegant">
             <img
-              src="https://framerusercontent.com/images/E256AMOO7jmeC16Pt034c9hN4HQ.png?width=535&height=852"
+              src={prvniFotka}
               alt="Veronika Zemenová – finanční specialistka"
               className="h-full w-full object-cover"
             />

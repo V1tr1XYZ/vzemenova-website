@@ -1,8 +1,9 @@
 import druhaFotka from "@/assets/druha-fotka.jpg";
+import tretiFotka from "@/assets/treti-fotka.jpg";
 
 export function Story() {
   return (
-    <section id="pribeh" className="relative py-32 overflow-hidden">
+    <section id="pribeh" className="relative pt-12 pb-32 overflow-hidden">
       <div className="absolute top-1/2 left-0 h-96 w-96 -translate-y-1/2 rounded-full bg-primary/10 blur-[120px]" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
@@ -62,7 +63,7 @@ export function Story() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-3xl overflow-hidden border border-border shadow-elegant">
               <img
-                src="https://framerusercontent.com/images/Go2x8GjBwYX8jJgcFFn4nH9M0Q.png?width=630&height=822"
+                src={tretiFotka}
                 alt="Veronika"
                 className="h-full w-full object-cover"
               />
