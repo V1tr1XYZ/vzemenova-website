@@ -31,7 +31,7 @@ export function Navbar() {
           <img
             src={logo}
             alt="Veronika Zemenová"
-            className="h-10 w-auto"
+            className="h-16 w-auto"
             style={{ filter: "brightness(0) invert(1)" }}
           />
         </a>
