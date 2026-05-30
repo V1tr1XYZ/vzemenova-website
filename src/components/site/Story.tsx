@@ -42,7 +42,7 @@ export function Story() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="text-xs uppercase tracking-[0.25em] text-primary font-medium">
-              Můj příběh
+              Kariéra se mnou
             </span>
             <h2 className="mt-4 text-4xl lg:text-5xl font-bold">
               Entuziasmus mám ve&nbsp;všem, <br />
