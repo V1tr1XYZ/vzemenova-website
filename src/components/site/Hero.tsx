@@ -46,6 +46,14 @@ export function Hero() {
             >
               Můj příběh
             </a>
+            <a
+              href="https://veronikazemenova-kariera.cz"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-3 px-7 py-4 rounded-full border border-border text-foreground hover:border-primary hover:bg-surface transition"
+            >
+              Kariéra se mnou
+            </a>
           </div>
 
           <div className="mt-14 grid grid-cols-3 gap-8 max-w-md">

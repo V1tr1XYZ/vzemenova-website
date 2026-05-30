@@ -4,7 +4,7 @@ import logo from "@/assets/logo.svg";
 
 const links = [
   { href: "#odkazy", label: "Odkazy" },
-  { href: "https://www.kariera-veronika-zemenova.cz", label: "Kariéra se mnou" },
+  { href: "#pribeh", label: "Můj příběh" },
   { href: "#sluzby", label: "Služby" },
   { href: "#kontakt", label: "Kontakt" },
 ];
