@@ -34,12 +34,10 @@ export function Hero() {
 
           <div className="mt-10 flex flex-wrap gap-4">
             <a
-              href="https://veronikazemenova-kariera.cz"
-              target="_blank"
-              rel="noreferrer"
+              href="#kontakt"
               className="group inline-flex items-center gap-3 px-7 py-4 rounded-full bg-gradient-primary text-primary-foreground font-medium shadow-glow hover:scale-[1.02] transition"
             >
-              Kariéra se mnou
+              Sjednat schůzku
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
