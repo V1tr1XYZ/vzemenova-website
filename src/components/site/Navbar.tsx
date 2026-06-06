@@ -3,9 +3,9 @@ import { Instagram } from "lucide-react";
 import logo from "@/assets/logo.svg";
 
 const links = [
-  { href: "#odkazy", label: "Odkazy" },
   { href: "#pribeh", label: "Můj příběh" },
   { href: "#sluzby", label: "Služby" },
+  { href: "#odkazy", label: "Odkazy" },
   { href: "#kontakt", label: "Kontakt" },
 ];
 
