@@ -40,7 +40,7 @@ export function Hero() {
               Sjednat schůzku
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </a>
-            <
+            <a
               href="https://veronikazemenova-kariera.cz"
               target="_blank"
               rel="noreferrer"
